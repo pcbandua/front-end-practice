@@ -1,12 +1,10 @@
-/* General Resets */
-
-
-* {
-  margin: 0,
-    padding: 0;
-  bix-sizing: border-box;
+General Resets * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/*Container style */
 body {
   font-family: monospace;
   background-color: aliceblue;
@@ -19,8 +17,41 @@ body {
 .container {
   background-color: #e0e9f8;
   width: 80%;
-  height: 500px display: flex;
+  height: 500px;
+  display: flex;
   justify-content: center;
-  align-items: center border-radius: 20px;
-  box-shadow: 0px 10px 30px rgba (0, 0, 0, 0.1)
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/*Card style */
+
+.card {
+  background-color: rgb(246, 246, 246);
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/*QR Code Style */
+
+.qr-code {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Card content */
+
+.card-content h2 {
+  font-size: 18px;
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #666;
 }
